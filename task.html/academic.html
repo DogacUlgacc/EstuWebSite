@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>ACADEMIC</title>
+    <!-- <style>
+
+        header{
+          background-color: #d9d9d9;
+        }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .header__content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .estü__logo {
+        margin-right: 20px;
+        max-width: 10%;
+        height: auto;
+      }
+
+      .estü__logo:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .header__content {
+          flex-direction: column;
+        }
+
+        .estü__logo {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+
+      .navigation {
+        float: left;
+        width: fit-content;
+        margin-right: 20px;
+      }
+      
+      .academic_navigation__right_p{  
+        background-color: #d9d9d9;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .navigation__right_p_img {
+        margin-left: -10px;
+        max-width: 35%;
+        height: auto; 
+        transition: transform 0.2s;
+      }
+
+    .navigation__right_p_img:hover {
+      transform: scale(1.2); 
+      cursor: pointer; 
+    }
+
+      .navigation ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .navigation ul li {
+        text-align: center;
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border: 2px solid #000;
+        background-color: #870c0b;
+      }
+
+      .navigation ul li a {
+        display: block;
+        padding: 4px;
+        margin: 5px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+      }
+
+      .navigation ul li:hover {
+        background-color: #fff;
+        border: 2px solid #870c0b;
+      }
+
+      .navigation ul li:hover a {
+        color: #870c0b;
+      }
+
+      .navigation ul li a.active {
+        font-size: 17px;
+        font-weight: bold;
+      }
+
+      @media screen and (max-width: 768px) {
+        .navigation {
+          float: none;
+          width: 100%;
+          margin-right: 0;
+        }
+
+        .navigation ul li {
+          margin: 0 0 10px 0;
+        }
+
+        .navigation ul li a {
+          font-size: 14px;
+        }
+
+        .navigation ul li a.active {
+          font-size: 20px;
+        }
+      }
+
+      .academic__div_img img{
+        max-width: 45%;
+        height: auto; 
+      }
+
+      .icon-bar-logo {
+         display: inline-block;
+        cursor: pointer; 
+      }
+
+      .icon-bar-logo a {
+        color: #870c0b;
+      }
+
+      .icon-bar-logo i {
+        font-size: 25px;
+        margin-right: 10px;
+        margin-left: 15px;
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      ul li {
+        text-decoration: none;
+      }
+
+       .box-3 {
+        display: inline-block;
+        text-align: center;
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .box-3 {
+          width: calc(50% - 10px);
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .box-3 {
+          width: 100%;
+        }
+      }
+
+      .box-2 {
+        display: inline-block;
+        text-align: center;
+        width: calc(50% - 10px);
+        margin-bottom: 20px;   
+      }
+     
+      .card{
+        height: fit-content;
+        border-radius: 15px;
+        border: 2px solid #000;
+        box-shadow: 5px 5px 7px #888888;
+      } 
+       
+      footer{
+          background:
+           linear-gradient(to bottom, #B1B1B1, #444444);
+        }
+    
+      .footer_img img {
+        width: 75%;
+        max-width: 300px;
+      }
+
+      footer a{
+        text-decoration: none;
+        color: #000;
+      }
+
+      .box-3 h4{
+       margin: 10px;
+      }
+
+      table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      color: #870c0b;
+    }
+
+    .table-of-uni{
+     font-size: 22px;
+      background-color: #6b6b6b;
+       color: #fff;
+    }
+
+    .navigation ul li.submenu ul {
+        display: none;
+        margin-right: 8px;
+      }
+
+      .navigation ul li.submenu:hover ul {
+        display: block;
+      }
+
+      .navigation ul li.submenu ul li {
+        background-color: #fff;
+        margin-right: 8px;
+        padding: 5px;
+        border-bottom: 2px solid #000;
+      }
+ 
+    </style> -->
+  </head>
+
+  <body>
+    <header>
+        <div class="header__content">
+            <img
+              class="estü__logo"
+              src="İmages/eskisehir-teknik-universitesi_logo.webp"
+              alt="estü_svg"/>
+              <h1 style="font-size: 35px;">Eskişehir Technical University</h1>
+        </div>
+
+        <nav>
+          <div class="navigation">
+            <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="university.html">UNIVERSITY</a></li>
+              <li><a href="academic.html" class ="active" >ACADEMICS</a></li>
+              <li class="submenu"><a href="students.html">STUDENT</a>
+                <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="document.html">Documents</a></li>
+                </ul>
+              </li>
+              <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+            </ul>
+          </div>
+        </nav>
+
+            
+            <div class="academic_navigation__right_p academic__div_img" > 
+               <img src="İmages/estü-fakülte.png" alt=""> <br><br>    
+               <div class="icon-bar-logo card">
+                      <a href="https://www.facebook.com/eskisehirteknikuniv" class="facebook">  <i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://twitter.com/esteknikuniv" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.instagram.com/eskisehirteknikuniv/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+               </div>
+                    <br><br>
+           </div>
+    </header>
+      <main>
+        <div>
+          <table class="table">
+           <!-- </tbody> -->
+              <tr class="table-card">
+                <th class="table-of-uni">FAKÜLTELER</th>              
+              </tr>
+              <tr>
+                <th>FEN FAKÜLTESİ</th>              
+              </tr>
+              <tr>
+                <td>Matematik Bölümü </td>
+              </tr>
+              <tr>
+                <td>Fizik Bölümü </td>
+              </tr>
+              <tr>
+                <td>Kimya Bölümü </td>
+              </tr>
+              <tr>
+                <td>Biyoloji Bölümü </td>
+              </tr>
+              <tr>
+                <td> İstatistik Bölümü </td>
+              </tr>
+              <tr>
+                <th>HAVACILIK VE UZAY BİLİMLERİ FAKÜLTESİ</th>              
+              </tr>
+              <tr>
+                <td>Uçak Gövde-Motor Bakım Bölümü </td>
+              </tr>
+              <tr>
+                <td>Havacılık Yönetimi </td>
+              </tr>
+              <tr>
+                <td>Pilotaj Bölümü </td>
+              </tr>
+              <tr>
+                <td>Hava Trafik Kontrol Bölümü </td>
+              </tr>
+              <tr>
+                <td>Havacılık Elektrik ve Elektroniği Bölümü</td>
+              </tr>
+              <tr>
+                <th>MÜHENDİSLİK FAKÜLTESİ</th>              
+             
+                <tr>
+                  <td> Bilgisayar Mühendisliği Bölümü (İngilizce) </td>
+                </tr>
+                <tr>
+                  <td>Endüstri Mühendisliği Bölümü</td>
+                </tr>    
+                <tr>
+                  <td>Çevre Mühendisliği Bölümü </td>
+                </tr>  
+                <tr>
+                  <td>Kimya Mühendisliği Bölümü </td>
+                </tr>  
+                <tr>
+                  <td>İnşaat Mühendisliği Bölümü </td>
+                </tr>  
+                <tr>
+                  <td>Malzeme Bilimi ve Mühendisliği Bölümü (İngilizce) </td>
+                </tr>  
+                <tr>
+                  <td>Elektrik-Elektronik Mühendisliği Bölümü (İngilizce)</td>
+                </tr>  
+                <tr>
+                  <td>İnşaat Mühendisliği Bölümü (İngilizce) </td>
+                </tr>  
+                <tr>
+                  <td> Makine Mühendisliği Bölümü </td>
+                </tr>  
+                <tr>
+                  <td>Kimya Mühendisliği Bölümü (İngilizce) </td>
+                </tr>  
+                <tr>
+                  <td>Endüstri Mühendisliği Bölümü (İngilizce) </td>
+                </tr>                          
+              <tr>
+                <th>MİMARLIK VE TASARIM FAKÜLTESİ</th>              
+              </tr>
+              <tr>
+                <td>İç Mimarlık Bölümü </td>
+              </tr>
+              <tr>
+                <td> Mimarlık Bölümü </td>
+              </tr>    
+              <tr>
+                <td>Endüstriyel Tasarım Bölümü </td>
+              </tr>    
+              <tr>
+                <td>Moda ve Tekstil Tasarımı Bölümü </td>
+              </tr>  
+                      
+                <th>SPOR BİLİMLERİ FAKÜLTESİ</th>             
+              </tr>
+              <tr>
+                <td>Antrenörlük Eğitimi Bölümü </td>
+              </tr>
+              <tr>
+                <td>Beden Eğitimi ve Spor Öğretmenliği Bölümü </td>
+              </tr>
+              <tr>
+                <td>Rekreasyon Bölümü </td>
+              </tr>
+              <tr>
+                <td>Spor Yöneticiliği Bölümü</td>
+              </tr>      
+            </table>
+        </div>
+
+        <div>
+          <table class="table">
+              <tr class="table-card">
+                <th class="table-of-uni" >ENSTİTÜLER</th>
+              </tr>
+              <tr>
+                <td>Lisansüstü Eğitim Enstitüsü </td>
+              </tr>
+              <tr>
+                <td>Ulaştırma Bilimleri Enstitüsü </td>
+              </tr>
+              <tr>
+                <td>Yer ve Uzay Bilimleri Enstitüsü </td>
+              </tr>   
+              <tr class="table-card">
+                <th class="table-of-uni">YÜKSEKOKULLAR</th>
+              </tr>
+              <tr>
+                <td>Yabancı Diller Yüksekokulu</td>
+              </tr>
+              <tr>
+                <th >MESLEK YÜKSEKOKULLARI</th>
+              </tr>
+              <tr>
+                <td>Porsuk Meslek Yüksekokulu </td>
+              </tr>
+              <tr>
+                <td>Ulaştırma Meslek Yüksekokulu </td>
+              </tr>
+          </table>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer_img box-3">
+          <img src="İmages/estu_logo_vektorel.svg" alt="" />
+        </div>
+  
+        <div class="box-3">
+          <h4>LOCATION</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i>
+            Gazipaşa Mahallesi, Eskişehir Teknik Üniversitesi İki Eylül Kampüsü
+            26555, Tepebaşı/ESKİŞEHİR
+          </p>
+        </div>
+  
+        <div class="box-3">
+          <h4>CONTACTS</h4>
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+902222137777">+90 222 213 77 77</a>
+            <br />
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@eskisehir.edu.tr">info@eskisehir.edu.tr</a>
+          </p>
+        </div>
+  
+        <p style="margin: 0px; margin-left: 10px">
+          2023 © All Rights Reserved. Eskişehir Technical University.  
+        </p>
+         <p style="text-align: center;">Made by Doğaç Ulğaç</p>
+        
+        <br />
+      </footer>
+  </body>
+</html>
+
+
+
+
+
+
+

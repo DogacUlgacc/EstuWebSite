@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>LOG IN</title>
+    <!-- <style>
+      header {
+        background-color: #d9d9d9;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .header__content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .estü__logo {
+        margin-right: 20px;
+        max-width: 10%;
+        height: auto;
+      }
+
+      .estü__logo:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .header__content {
+          flex-direction: column;
+        }
+
+        .estü__logo {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+
+      .navigation {
+        float: left;
+        width: fit-content;
+        margin-right: 20px;
+      }
+
+      .navigation ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .navigation ul li {
+        text-align: center;
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border: 2px solid #000;
+        background-color: #870c0b;
+      }
+
+      .navigation ul li a {
+        display: block;
+        padding: 4px;
+        margin: 5px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+      }
+
+      .navigation ul li:hover {
+        background-color: #fff;
+        border: 2px solid #870c0b;
+      }
+
+      .navigation ul li:hover a {
+        color: #870c0b;
+      }
+
+      .navigation ul li a.active {
+        font-size: 17px;
+        font-weight: bold;
+      }
+
+      @media screen and (max-width: 768px) {
+        .navigation {
+          float: none;
+          width: 100%;
+          margin-right: 0;
+        }
+
+        .navigation ul li {
+          margin: 0 0 10px 0;
+        }
+
+        .navigation ul li a {
+          font-size: 14px;
+        }
+
+        .navigation ul li a.active {
+          font-size: 20px;
+        }
+      }
+
+      .icon-bar-logo {
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .icon-bar-logo a {
+        color: #870c0b;
+      }
+
+      .icon-bar-logo i {
+        font-size: 25px;
+        margin-right: 10px;
+        margin-left: 15px;
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      ul li {
+        text-decoration: none;
+      }
+
+      .box-3 {
+        display: inline-block;
+        text-align: center;
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .box-3 {
+          width: calc(50% - 10px);
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .box-3 {
+          width: 100%;
+        }
+      }
+
+      .box-2 {
+        display: inline-block;
+        text-align: center;
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+      }
+
+      .card {
+        height: fit-content;
+        border-radius: 15px;
+        border: 2px solid #000;
+        box-shadow: 5px 5px 7px #888888;
+      }
+
+      footer {
+        background: linear-gradient(to bottom, #b1b1b1, #444444);
+      }
+
+      .footer_img img {
+        width: 75%;
+        max-width: 300px;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      label {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        margin-top: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 5px #b1b1b1;
+        font-size: 16px;
+      }
+
+      button[type="submit"] {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #870c0b;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #fff;
+        color: #870c0b;
+        border: 2px solid #870c0b;
+      }
+
+      .navigation ul li.submenu ul {
+        display: none;
+        margin-right: 8px;
+      }
+
+      .navigation ul li.submenu:hover ul {
+        display: block;
+      }
+
+      .navigation ul li.submenu ul li {
+        background-color: #fff;
+        margin-right: 8px;
+        padding: 5px;
+        border-bottom: 2px solid #000;
+      }
+    </style> -->
+  </head>
+
+  <body>
+    <header>
+      <div class="header__content">
+        <img
+          class="estü__logo"
+          src="İmages/eskisehir-teknik-universitesi_logo.webp"
+          alt="estü_svg"
+        />
+        <h1 style="font-size: 35px">Eskişehir Technical University</h1>
+      </div>
+
+      <nav>
+        <div class="navigation">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="university.html">UNIVERSITY</a></li>
+            <li><a href="academic.html">ACADEMICS</a></li>
+            <li class="submenu">
+              <a href="students.html">STUDENT</a>
+              <ul>
+                <li><a href="login.html" class="active">Login</a></li>
+                <li><a href="document.html">Documents</a></li>
+              </ul>
+            </li>
+            <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <br /><br />
+
+    <aside>
+      <br /><br />
+      <form action="home.html">
+        <div>
+          <label for="username"
+            >Your Username <i class="fa-solid fa-user"></i
+          ></label>
+          <input
+            type="text"
+            id="username"
+            class="form-control"
+            name="username"
+            placeholder="Username"
+            required
+          />
+        </div>
+        <div>
+          <label for="password"
+            >Your Password <i class="fa-solid fa-lock"></i
+          ></label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <button type="submit">LOG IN</button>
+      </form>
+    </aside>
+    <br /><br /><br /><br />
+
+    <footer>
+      <div class="footer_img box-3">
+        <img src="İmages/estu_logo_vektorel.svg" alt="" />
+      </div>
+
+      <div class="box-3">
+        <h4>LOCATION</h4>
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+          Gazipaşa Mahallesi, Eskişehir Teknik Üniversitesi İki Eylül Kampüsü
+          26555, Tepebaşı/ESKİŞEHİR
+        </p>
+      </div>
+
+      <div class="box-3">
+        <h4>CONTACTS</h4>
+        <p>
+          <i class="fas fa-phone"></i>
+          <a href="tel:+902222137777">+90 222 213 77 77</a>
+          <br />
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:info@eskisehir.edu.tr">info@eskisehir.edu.tr</a>
+        </p>
+      </div>
+
+      <p style="margin: 0px; margin-left: 10px">
+        2023 © All Rights Reserved. Eskişehir Technical University
+      </p>
+      <p style="text-align: center">Made by Doğaç Ulğaç</p>
+      <br />
+    </footer>
+  </body>
+</html>

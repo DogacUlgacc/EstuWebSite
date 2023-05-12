@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>UNIVERSITY</title>
+
+    <!-- <style>
+      header {
+        background-color: #d9d9d9;
+      }
+
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .header__content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .estü__logo {
+        margin-right: 20px;
+        max-width: 10%;
+        height: auto;
+      }
+
+      .estü__logo:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .header__content {
+          flex-direction: column;
+        }
+
+        .estü__logo {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+
+      .navigation {
+        float: left;
+        width: fit-content;
+        margin-right: 20px;
+      }
+
+      .uni_navigation__right_p {
+        background-color: #d9d9d9;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .uni_navigation__right_p_img {
+        margin-left: -10px;
+        max-width: 35%;
+        height: auto;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      .uni_navigation__right_p_img:hover {
+        opacity: 0.7;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .uni_navigation__right_p_img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .navigation ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .navigation ul li {
+        text-align: center;
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        border: 2px solid #000;
+        background-color: #870c0b;
+      }
+
+      .navigation ul li a {
+        display: block;
+        padding: 4px;
+        margin: 5px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+      }
+
+      .navigation ul li:hover {
+        background-color: #fff;
+        border: 2px solid #870c0b;
+      }
+
+      .navigation ul li:hover a {
+        color: #870c0b;
+      }
+
+      .navigation ul li a.active {
+        font-size: 17px;
+        font-weight: bold;
+      }
+
+      /* section ul div {
+          margin-top: 15px;
+        } */
+
+      @media screen and (max-width: 768px) {
+        .navigation {
+          float: none;
+          width: 100%;
+          margin-right: 0;
+        }
+
+        .navigation ul li {
+          margin: 0 0 10px 0;
+        }
+
+        .navigation ul li a {
+          font-size: 14px;
+        }
+
+        .navigation ul li a.active {
+          font-size: 20px;
+        }
+      }
+
+      .icon-bar-logo {
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .icon-bar-logo a {
+        color: #870c0b;
+      }
+
+      .icon-bar-logo i {
+        font-size: 25px;
+        margin-right: 10px;
+        margin-left: 15px;
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      ul li {
+        text-decoration: none;
+      }
+
+      /* .content_h3_p {
+        padding: 25px;
+        padding-bottom: 5px;
+        text-align: center;
+        background-color: #6b6b6b;
+      }
+
+      .content_h3_p img {
+        max-width: 550px;
+        display: inline-block;
+      }
+
+      .content_h3_p h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .content_h3_p p {
+        font-size: 18px;
+        text-align: center;
+        margin: 15px;
+        color: #fff;
+      } */
+
+      .box-3 {
+        display: inline-block;
+        text-align: center;
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .box-3 {
+          width: calc(50% - 10px);
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .box-3 {
+          width: 100%;
+        }
+      }
+
+      .box-2 {
+        display: inline-block;
+        text-align: center;
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+      }
+
+      .card {
+        height: fit-content;
+        border-radius: 15px;
+        border: 2px solid #000;
+        box-shadow: 5px 5px 7px #888888;
+      }
+
+      footer {
+        background: linear-gradient(to bottom, #b1b1b1, #444444);
+      }
+
+      .footer_img img {
+        width: 75%;
+        max-width: 300px;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      .box-3 h4 {
+        margin: 10px;
+      }
+
+      .show {
+        text-align: center;
+      }
+
+      .read-more {
+        display: none;
+      }
+      .read-more-target {
+        max-height: 0;
+        font-size: 0;
+      }
+      .read-more:checked ~ .read-more-wrap .read-more-target {
+        font-size: inherit;
+      }
+
+      .read-more ~ .read-more-button:before {
+        content: "Read more";
+      }
+
+      .read-more:checked ~ .read-more-button:before {
+        content: "Read less";
+      }
+
+      .read-more-button {
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+        text-align: center;
+      }
+
+      .read-more-button:before {
+        color: #fff;
+        content: "Show More";
+        display: inline-block;
+        background-color: #870c0b;
+        border: 1px solid #fff;
+        padding: 0.5em;
+        cursor: pointer;
+      }
+
+      .read-more-button:hover {
+        background-color: #870c0b;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .read-more:checked ~ .read-more-wrap {
+        height: auto;
+        overflow: visible;
+      }
+
+      .show label {
+        display: inline;
+        margin: 0px;
+      }
+
+      .navigation ul li.submenu ul {
+        display: none;
+        margin-right: 8px;
+      }
+
+      .navigation ul li.submenu:hover ul {
+        display: block;
+      }
+
+      .navigation ul li.submenu ul li {
+        background-color: #fff;
+        margin-right: 8px;
+        padding: 5px;
+        border-bottom: 2px solid #000;
+      }
+      .uni__main {
+        margin: 30px;
+      }
+    </style> -->
+  </head>
+
+  <body>
+    <header>
+      <div class="header__content">
+        <img
+          class="estü__logo"
+          src="İmages/eskisehir-teknik-universitesi_logo.webp"
+          alt="estü_svg"
+        />
+        <h1 style="font-size: 35px">Eskişehir Technical University</h1>
+      </div>
+
+      <nav>
+        <div class="navigation">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="university.html" class="active">UNIVERSITY</a></li>
+            <li><a href="academic.html">ACADEMICS</a></li>
+            <li class="submenu">
+              <a href="students.html">STUDENT</a>
+              <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="document.html">Documents</a></li>
+              </ul>
+            </li>
+            <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="uni_navigation__right_p">
+        <br /><br />
+        <img
+          class="uni_navigation__right_p_img"
+          src="İmages/estü-nav.jpg"
+          alt=""
+        />
+        <br /><br /><br />
+
+        <div class="icon-bar-logo card">
+          <a
+            href="https://www.facebook.com/eskisehirteknikuniv"
+            class="facebook"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/esteknikuniv" class="twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/eskisehirteknikuniv/"
+            class="instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://tr.linkedin.com/school/eskisehirteknikuniv/"
+            class="linkedin"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA"
+            class="youtube"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+        <br /><br />
+      </div>
+    </header>
+
+    <main class="uni__main">
+      <div class="show">
+        <h3>About Us</h3>
+        <input type="checkbox" class="read-more" id="post" />
+        <p class="read-more-wrap">
+          Eskişehir Technical University (ESTU) is a leading public university
+          located in the heart of Eskişehir, a vibrant city renowned for its
+          rich cultural heritage, modern infrastructure, and youthful energy.
+          <span class="read-more-target">
+            Established in 2018, ESTU is home to five faculties, two vocational
+            schools, one school, and three institutes, as well as four research
+            and application centers spread across three campuses. At ESTU, we
+            strive to provide our students with the most dynamic, innovative,
+            and well-rounded educational experience possible. Our highly
+            qualified teaching staff work tirelessly to ensure that our students
+            are equipped with the skills and knowledge they need to succeed in a
+            rapidly evolving global landscape. With a diverse student body of
+            approximately 9,000 students from all over Turkey and abroad, ESTU
+            is a truly international institution that fosters an inclusive,
+            collaborative, and intellectually stimulating environment. We are
+            proud to be a key player in shaping the future of higher education
+            in Turkey and beyond, and we look forward to continuing to build a
+            world-class institution that prepares our students for the
+            challenges and opportunities of tomorrow.
+          </span>
+        </p>
+
+        <label for="post" class="read-more-button"></label>
+      </div>
+
+      <div class="show">
+        <h3>Numbers of Students and Staff</h3>
+        <input type="checkbox" class="read-more" id="Staff" />
+        <p class="read-more-wrap">
+          Eskişehir Technical University, as of the 2021-2022 academic year, has
+          approximately 9,000 students enrolled in its undergraduate and
+          graduate programs.
+          <span class="read-more-target">
+            Our university takes pride in having students from all over Turkey,
+            as well as international students from various countries. We have a
+            diverse faculty consisting of over 450 highly qualified and
+            experienced academics, including 169 professors, 76 associate
+            professors, and 178 assistant professors. In addition to our
+            academic staff, we have over 150 administrative and support staff
+            members who work diligently to ensure the smooth operation of our
+            university. Our faculty members are dedicated to providing students
+            with a challenging yet supportive learning environment, while our
+            administrative and support staff provide the necessary services and
+            resources for students to achieve their academic goals. We believe
+            that our students and staff are the cornerstone of our university,
+            and we strive to provide them with the best educational and
+            professional experience possible.
+          </span>
+        </p>
+
+        <label for="Staff" class="read-more-button"></label>
+      </div>
+
+      <div class="show">
+        <h3>Administrative Units</h3>
+        <input type="checkbox" class="read-more" id="Administrative-Units" />
+        <p class="read-more-wrap">
+          Eskişehir Technical University has a well-organized administrative
+          structure that is essential for the success of its students, faculty,
+          and staff.
+          <span class="read-more-target">
+            The university is comprised of various administrative units that
+            work together to ensure the efficient operation of the institution.
+            These units include the Rectorate, Faculties, Graduate Schools,
+            Research Centers, and Administrative Departments. The Rectorate is
+            responsible for the overall management and leadership of the
+            university, while the Faculties and Graduate Schools focus on
+            academic programs and research activities. The Research Centers
+            focus on interdisciplinary research projects that have the potential
+            to make a real-world impact. The Administrative Departments provide
+            support services such as finance, human resources, and IT. With a
+            competent and experienced team of administrators and staff,
+            Eskişehir Technical University is dedicated to providing its
+            students with the best possible educational experience and
+            contributing to the advancement of science and technology through
+            innovative research and development projects.
+          </span>
+        </p>
+        <label for="Administrative-Units" class="read-more-button"></label>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_img box-3">
+        <img src="İmages/estu_logo_vektorel.svg" alt="" />
+      </div>
+
+      <div class="box-3">
+        <h4>LOCATION</h4>
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+          Gazipaşa Mahallesi, Eskişehir Teknik Üniversitesi İki Eylül Kampüsü
+          26555, Tepebaşı/ESKİŞEHİR
+        </p>
+      </div>
+
+      <div class="box-3">
+        <h4>CONTACTS</h4>
+        <p>
+          <i class="fas fa-phone"></i>
+          <a href="tel:+902222137777">+90 222 213 77 77</a>
+          <br />
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:info@eskisehir.edu.tr">info@eskisehir.edu.tr</a>
+        </p>
+      </div>
+
+      <p style="margin: 0px; margin-left: 10px">
+        2023 © All Rights Reserved. Eskişehir Technical University
+      </p>
+      <p style="text-align: center">Made by Doğaç Ulğaç</p>
+      <br />
+    </footer>
+  </body>
+</html>
